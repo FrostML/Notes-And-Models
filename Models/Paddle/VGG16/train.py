@@ -114,8 +114,6 @@ if __name__ == "__main__":
 
     startup_program.random_seed = 1
     exe.run(startup_program)
-    # x = np.random.random(size=[1, 3, 224, 224]).astype('float32')
-    # y = np.array([1]).reshape([1, 1]).astype('int64')
     loader = fluid.io.DataLoader.from_generator(
         feed_list=[data, label],
         capacity=6,
