@@ -30,4 +30,4 @@ for var in program.list_vars():
     params_[var_name] = params
 ```
 
-Note: NOTE that all parameters must be get after `exe.run()` is called. Otherwise, `find_var(var_name)` will return a `None` type. 
+Note: NOTE that all parameters must be got after `exe.run()` is called. Otherwise, `find_var(var_name)` will return a `None` type. 
